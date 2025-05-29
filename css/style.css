@@ -1025,6 +1025,10 @@ h2{
 
 }
 
+.qtn p{
+    font-size: .9em;
+}
+
 #FAQS h3{
     /* text-align: center; */
     color: var(--second-font-color);
@@ -1057,6 +1061,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: var(--second-font-color);
+    font-size: .85em;
 }
 
 
@@ -1132,15 +1137,22 @@ form button{
     display: flex;
 }
 
+.flex p{
+    font-size: .85em;
+}
+
 .minus p{
     font-family: var(--main-font);
+    font-size: .85em;
     /* color: var(--font-color); */
 }
 
 .footer002{
     display: grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: 300px 300px 220px 300px;
     grid-gap: 10px;
+    /* background-color: red; */
+    width: 100%;
     /* display: flex; */
     /* justify-content: center; */
     /* gap: 10px; */
@@ -1154,7 +1166,7 @@ form button{
 }
 
 .links a{
-    font-size: .9em;
+    font-size: .85em;
     color: white;
     margin-top: 3px;
 }
@@ -1183,18 +1195,18 @@ form button{
 }
 
 .main:nth-child(4){
-    width: 350px;
+    width: 300px;
     /* background-color: red; */
 }
 
 .main:nth-child(3){
     width: 220px;
-    margin-left: 50px;
-    /* background-color: red; */
+    margin-left: 0px;
+    /* background-color: blue; */
 }
 
 .scale{
-    width: 350px;
+    width: 300px;
     height: 80px;
     background-color: var(--main-color);
     margin-top: 20px;
