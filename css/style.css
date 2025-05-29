@@ -53,7 +53,7 @@ body{
 
 header{
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: rgb(21, 21, 43);
     display: flex;
     gap: 5px;
@@ -78,6 +78,7 @@ header .logo{
     font-family: var(--main-font);
     margin-top: 20px;
     font-weight: 600;
+    font-size: 1.3em;
     transform: translateY(-5px);
 }
 
@@ -110,7 +111,7 @@ header .main002{
     position: relative;
     /* background-color: red; */
     width: 100%;
-    height: 45px;
+    height: 40px;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -120,6 +121,7 @@ header .main002{
 
 .navBar a{
     margin-left: 10px;
+    font-size: .9em;
     color: var(--second-font-color);
 }
 
@@ -131,7 +133,7 @@ header .main002::before{
     position: absolute;
     content: "";
     width: 100%;
-    height: 140%;
+    height: 120%;
     left: 20px;
     background-color: var(--font-color);
     z-index: -1;
@@ -149,6 +151,7 @@ header .main002::before{
     width: 150px;
     height: 40px;
     border: none;
+    font-size: .9em;
     background-color: var(--main-color);
     color: var(--font-color);
 }
@@ -187,14 +190,14 @@ header .main002::before{
     font-family: 'Poppins', Garamond,serif;
     color: var(--font-color);
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 10px;
     letter-spacing: 2px;
 }
 
 .Home001 p{
     color: var(--font-color);
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .HomeBtns button{
@@ -272,7 +275,7 @@ header .main002::before{
 .about001 h1{
     font-family: var(--main-font);
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--second-font-color);
 }
 
@@ -287,10 +290,13 @@ header .main002::before{
 .aboutIcons p{
     color: var(--second-font-color);
     font-weight: 600;
+    font-size: .9em;
 }
 
 .about-ticks p{
     color: var(--second-font-color);
+    /* color: red; */
+    font-size: .9em;
 }
 
 .about-text{
@@ -309,8 +315,9 @@ header .main002::before{
 }
 
 .about002{
-    width: 550px;
+    width: 470px;
     height: 470px;
+    /* background-color: red; */
 }
 
  .about-grid-items{
@@ -323,7 +330,7 @@ header .main002::before{
 }
 
 .about-grid-items .item1 img{
-   width: 550px;
+   width: 470px;
    height: 330px;
    clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 51%, 50% 100%, 0% 100%, 0% 0%);
 }
