@@ -156,7 +156,7 @@ header .main002::before{
 }
 
 .Home001 button{
-    border-radius: 5px;
+    border-radius: 0px;
 }
 .Home001{
     /* background-color: yellow; */
