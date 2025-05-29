@@ -22,7 +22,7 @@
 
 header{
     width: 100% !important;
-    height: 60px !important;
+    height: 50px !important;
     background-color: rgb(21, 21, 43);
     display: flex;
     gap: 5px;
