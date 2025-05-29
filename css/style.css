@@ -787,7 +787,7 @@ header .main002::before{
 }
 
 .Blog-item p{
-    font-size: .9em;
+    font-size: .85em;
     color: grey;
 }
 
@@ -805,6 +805,7 @@ header .main002::before{
     width: 150px;
     height: 40px;
     border: none;
+    font-size: .9em;
     background-color: var(--main-color);
 }
 
@@ -835,6 +836,10 @@ header .main002::before{
     font-weight: 600;
     font-family: 'Poppins',garamond,sans-serif;
     text-align: center;
+    font-size: .8em;
+}
+.team p{
+    font-size: .8em;
 }
 
 h2{
@@ -894,14 +899,15 @@ h2{
 .test001 h3{
     font-family: 'Poppins',garamond,sans-serif;
     font-weight: 600;
-    font-size: 35px;
-    letter-spacing: 2px;
+    font-size: 30px;
+    /* letter-spacing: 2px; */
 }
 
 .testBtn button{
     width: 180px;
     height: 40px;
     border: none;
+    font-size: .9em;
     background-color: var(--main-color);
 }
 
@@ -966,10 +972,15 @@ h2{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.test001 p{
+    font-size: .8em;
+}
+
 .controlBtns{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: -40px;
 }
 
 .controlBtns span{
@@ -1007,11 +1018,10 @@ h2{
 }
 
 .qtn{
-    
-    
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    font-size: .9em;
 
 }
 
@@ -1020,6 +1030,7 @@ h2{
     color: var(--second-font-color);
     font-family: var(--main-font);
     font-weight: 600;
+    font-size: 30px;
 
 }
 
@@ -1035,6 +1046,7 @@ h2{
     margin-top: 10px;
     /* visibility: hidden; */
     display: none;
+    font-size: .9em;
 }
 
 /* Footer strats here */
