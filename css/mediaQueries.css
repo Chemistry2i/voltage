@@ -19,6 +19,8 @@
     content: "" !important;
    }
 
+   overflow-x: hidden !important;
+
 header{
     width: 100% !important;
     height: 60px !important;
@@ -65,7 +67,7 @@ header .logo{
 header .main-Header001{
     position: relative;
     /* display: none; */
-    width: 80%;
+    width: 50% !important;
     height: 100%;
     /* background-color: yellow; */
 }
@@ -108,7 +110,7 @@ header .main002{
 header .main002::before{
     position: absolute;
     content: "";
-    width: 110% !important;
+    width: 100% !important;
     height: 120% !important;
     left: 1px !important;
     background-color: var(--font-color);
