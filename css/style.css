@@ -314,6 +314,11 @@ header .main002::before{
     color: var(--font-color);
 }
 
+.about-text{
+    font-size: .9em;
+    /* color: red; */
+    width: 500px;
+}
 .about002{
     width: 470px;
     height: 470px;
@@ -337,7 +342,7 @@ header .main002::before{
 
 
 .item2{
-    width: 275px;
+    width: 195px;
     height: 135px;
     position: absolute;
     bottom: 0;
@@ -350,7 +355,7 @@ header .main002::before{
 }
 
 .item2 h1{
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Poppins',garamond, sans-serif;
     font-weight: 600;
 }
@@ -359,6 +364,8 @@ header .main002::before{
     font-weight: 600;
     font-family: 'Poppins', garamond, sans-serif;
     color: var(--font-color);
+    font-size: 1.1em;
+    /* width: 150px; */
 }
 
 
