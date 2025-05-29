@@ -308,6 +308,7 @@ header .main002::before{
     height: 40px;
     background-color: var(--main-color);
     border: none;
+    font-size: .9em;
 }
 
 .aboutBtn button a{
@@ -422,7 +423,7 @@ header .main002::before{
 .mostive001 h3{
     color: var(--font-color);
     font-weight: 600;
-    font-size: 33px;
+    font-size: 30px;
     font-family: 'Poppins', garamond, sans-serif;
 }
 
@@ -430,6 +431,7 @@ header .main002::before{
     width: 160px;
     height: 40px;
     border: none;
+    font-size: .9em;
     background-color: var(--main-color);
 }
 
@@ -522,7 +524,7 @@ header .main002::before{
     font-family: var(--main-font);
     font-weight: 600;
     color: var(--second-font-color);
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .service{
@@ -545,6 +547,7 @@ header .main002::before{
     margin-top: 10px;
     background-color: transparent;
     border: 2px solid var(--main-color);
+    font-size: .9em;
 }
 
 .servBtns{
@@ -555,6 +558,10 @@ header .main002::before{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+
+.head{
+    font-size: .8em;
 }
 
 .servBtns button{
@@ -591,17 +598,19 @@ header .main002::before{
     font-family: var(--main-font);
     font-weight: 600;
     text-align: left;
+    font-size: 1em;
 }
 
 .service-card p{
     color: var(--second-font-color);
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .cardBtn button{
     width:120px;
     height: 35px;
     border: none;
+    font-size: .9em;
     background-color: var(--main-color);
 }
 
@@ -613,6 +622,8 @@ header .main002::before{
     display: flex;
     gap:10px
 }
+
+/* Projects section */
 
 #Projects{
     width: 100%;
@@ -647,7 +658,7 @@ header .main002::before{
 .concentrate01 h3{
     font-family: 'Poppins',garamond,sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     color: var(--second-font-color);
 }
 
@@ -678,6 +689,11 @@ header .main002::before{
     margin-top: 20px;
     color: var(--second-font-color);
     font-weight: 600;
+    font-size: .9em;
+}
+
+.hea{
+    font-size: .9em;
 }
 
 .concentrate02 h5,p,button{
@@ -685,15 +701,15 @@ header .main002::before{
 }
 
 .concentrate02{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     /* background-color: red; */
     box-shadow:  0 0 5px grey;
 }
 
 .myImage img{
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
 }
 
 .concentrate02 h5{
@@ -715,6 +731,7 @@ header .main002::before{
     background-color: var(--main-color);
     border: none;
     margin-left: 10px;
+    font-size: .9em;
 }
 
 .btnn button a{
