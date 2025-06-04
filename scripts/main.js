@@ -1,7 +1,7 @@
 
 // Lazy loading animation with javascript with intersection observer API.
 const home = document.getElementById("Home001");
-const about = document.getElementById("About");
+const about = document.getElementById("about");
 const motive = document.querySelector(".motive");
 const services = document.getElementById("Services");
 const projects = document.getElementById("Projects");
@@ -20,7 +20,7 @@ function callBackFunction(entries){
                 home.classList.add("loaded")
             }
 
-            if(entry.target.id === about){
+            if(entry.target === about){
                 about.classList.add("active")
             }
 
