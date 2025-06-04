@@ -50,7 +50,6 @@ body{
     /* background-color: red; */
     overflow-x: hidden;
 }
-/* Header styles */
 
 header{
     width: 100%;
@@ -173,6 +172,7 @@ header .main002::before{
     position: relative;
     /* background-color: red; */
 }
+
 .Home001{
     /* background-color: yellow; */
     width: 60%;
@@ -185,6 +185,10 @@ header .main002::before{
     font-weight: bold;
     color: var(--font-color);
     font-family: 'Poppins', Garamond,serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transform: translateY(100px);
 }
 
 .Home001 h1{
@@ -194,11 +198,35 @@ header .main002::before{
     font-size: 30px;
     margin-top: 10px;
     letter-spacing: 2px;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transform: translateY(100px);
+    transition-delay: .6s;
 }
+
 
 .Home001 p{
     color: var(--font-color);
     font-size: .8em;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transform: translateY(100px);
+    transition-delay: 1s;
+}
+
+
+.Home001.loaded h1,
+.Home001.loaded p,
+.Home001.loaded h4{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    /* font-size: 80px; */
+}
+.Home .loaded{
+    color: red;
 }
 
 .HomeBtns button{
@@ -207,11 +235,27 @@ header .main002::before{
     margin-top: 10px;
     border: none;
     font-size: .9em;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transform: translateY(100px);
+    transition-delay: .8s;
 }
 
 .HomeBtns button:nth-child(2){
     background-color: var(--main-color);
     color: var(--font-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transform: translateY(100px);
+    transition-delay: 1s;
+}
+
+.Home001.loaded button{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .parent{
